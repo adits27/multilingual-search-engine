@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  multilingualsearchengine:
+    image: multilingualsearchengine
+    build:
+      context: .
+      dockerfile: ./Dockerfile
